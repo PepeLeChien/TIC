@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASO</title>
+</head>
+<body>
+    <a href="../index.html">Volver al Inicio</a>
+    <h1>CASO</h1>
+
+    <p>En una empresa hay N trabajadores a cada uno se le paga un sueldo mensual único y es 
+        igual para todos, sólo si el empleado registra más de 3 faltas se le descuenta S/30.00 por cada 
+        día que faltó. 
+    <br>    Calcular:
+    <br>    a) El sueldo final de cada trabajador.
+    <br>    b) El monto total que la empresa pagó en sueldos.
+    <br>    c) El mayor número de faltas.</p>
+    <br>
+    <br>
+
+    <p>Escribe el sueldo único en soles de los empleados</p>
+    <input type="text" id="salary" placeholder="Ejem: 3200">
+
+    <p>Escribe las faltas registradas de cada empleado separadas por comas</p>
+    <input type="text" placeholder="Ejem: 3,1,7,10,6..." style="width: 300px" id="absences">
+    <button onclick="calc()">CALCULAR</button>
+    <p id="finalSalaries">Sueldo final de cada trabajador:</p>
+    <p id="totalAmount">Monto total que la empresa pagó:</p>
+    <p id="mostAbsences">El número mayor de faltas registradas:</p>
+
+    <script src="../src/caso.js"></script>
+</body>
+</html>
