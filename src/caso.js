@@ -9,7 +9,6 @@ const calc = () => {
     const arr = absences.split(',');
     const newArr = arr.map((sal)=>Number(sal));
 
-    console.log(newArr);
 
 
     //Empezando con los ciclos (la tarea)
@@ -24,7 +23,6 @@ const calc = () => {
                 newSalaries.push(salary)
             }
         }   
-        console.log(newSalaries)
 
         // b) El monto total que la empresa pagó en sueldos.
 

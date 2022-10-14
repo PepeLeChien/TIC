@@ -7,7 +7,6 @@ const calc = () => {
     const arr = grades.split(',');
     const newArr = arr.map((grade)=>Number(grade));
 
-    console.log(newArr);
 
 
     //Empezando con los ciclos (la tarea)
@@ -16,7 +15,7 @@ const calc = () => {
         total += grade;
     }
     let average = total / newArr.length;
-
+    average.toFixed(2);
 
     //Devolviendo los datos a la pagina web
     sum.innerHTML = 'Suma Total: ' + total;

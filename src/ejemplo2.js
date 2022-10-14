@@ -7,7 +7,6 @@ const calc = () => {
     const arr = grades.split(',');
     const newArr = arr.map((grade)=>Number(grade));
 
-    console.log(newArr);
 
 
     //Empezando con los ciclos (la tarea)
